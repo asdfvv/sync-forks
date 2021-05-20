@@ -14,9 +14,9 @@ jobs:
       uses: danshui-git/github-forks-sync-action@main
       with:
         github_token: ${{ secrets.REPO_TOKEN }}
-        upstream_repository: 281677160/build-openwrt
+        upstream_repository: danshui-git/Build-OpenWrt
         upstream_branch: main
-        target_repository: asdfvv/build-openwrt       #修改成你的帐号/仓库名字
+        target_repository: asdfvv/rv-opnwrt       #修改成你的帐号/仓库名字
         target_branch: main                                #你仓库的分支
         force: true
         tags: false
